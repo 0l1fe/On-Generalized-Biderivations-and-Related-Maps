@@ -1,0 +1,921 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Welcome to Overleaf --- just edit your LaTeX on the left,
+% and we'll compile it for you on the right. If you open the
+% 'Share' menu, you can invite other users to edit at the same
+% time. See www.overleaf.com/learn for more info. Enjoy!
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass{beamer}
+
+\mode<presentation>{
+	\usepackage[utf8]{inputenc}
+	\usepackage[turkish]{babel}
+	\usepackage[T1]{fontenc}
+}
+
+\usetheme{Darmstadt}
+
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{amsmath}
+
+\usepackage{hyperref}
+
+\setbeamercovered{transparent}
+
+\begin{document}
+
+\title{Seminer}
+\author{Utkan Utkaner}
+\institute{Ege Üniversitesi}
+\date{2021}
+
+\frame{\titlepage}
+
+\title{Genelleştirilmiş Bitürevler ve İlişkili Dönüşümler Üzerine}
+\author{On Generalized Biderivations and Related Maps}
+\institute{Matej Brešar}
+\date{1994}
+
+\frame{\titlepage}
+
+\begin{frame}{İçindekiler}
+
+\begin{enumerate}
+    \item Giriş
+    \item Ön Hazırlıklar
+    \item $\sigma$-Bitürevler
+    \item İdealler Üzerine Sonuçlar
+    \item Sağ İdealler Üzerine Sonuçlar
+\end{enumerate}
+    
+\end{frame}
+
+\section{Giriş}
+
+\begin{frame}
+
+\begin{block}{Tanım}
+
+\end{block}
+    
+\end{frame}
+
+\begin{frame}
+
+\begin{block}{[19] Posner (1957)}
+$R$ asal halkası üzerinde sıfırdan farklı merkezleyen türev varsa $R$ değişmelidir.
+\end{block}
+
+İyi bilinen bu teorem merkezleyen dönüşümler üzerindeki ilk önemli çalışmadır.\\
+Daha sonra birçok kişi Posner'in çalışmasını çeşitli yönlerde ilerletmiştir.
+
+\begin{block}{[14] Lanski (1988)}
+Değişmeli olmayan asal halkaların bazı alt kümelerinde sıfırdan farklı merkezleyen olmayan türevler vardır.
+\end{block}
+
+Benzer sonuçlar daha sonra otomorfizmalar gibi farklı dönüşümler için de elde edilmiştir.
+    
+\end{frame}
+
+\begin{frame}
+
+Burada merkezleyen ve toplamsal dönüşümler başka bir varsayım olmadan çalışılmıştır.
+Öncelikle 2-burulmasız yarı asal halkanın bir Jordan alt halkasında merkezleyen ve toplamsal her dönüşümün commuting olacağı gösterilmiştir.
+
+\begin{block}{[5] Brešar (1993)}
+Bir $R$ halkasının commuting toplamsal dönüşümleri $\lambda \in C, \zeta \colon R \to C$ toplamsal olmak üzere $x \mapsto \lambda x + \zeta(x)$ formundadır. Burada $C$, $R$ halkasının genişletilmiş merkezidir.
+\end{block}
+
+Daha sonra benzer sonuçlar yarı asal halkalar [1, 7], von Neumann [3] ve $C^*$-cebirleri ve involüsyonlu asal halkaların skew elemanları [9] için elde edilmiştir. Ayrıca [6] ve [10] ile bazı halkaların 2-toplamsal dönüşümlerinin commuting izleri karakterize edilmiştir.
+    
+\end{frame}
+
+\begin{frame}
+
+\begin{block}{Tanım}
+
+\end{block}
+
+\end{frame}
+
+\begin{frame}
+
+\begin{block}{[5] Brešar (1993)}
+Değişmeli olmayan $R$ asal halkasının her $D$ bitürevi
+\begin{equation*}
+    D(x,y) = \lambda[x,y], \exists \lambda \in C
+\end{equation*}
+formundadır.
+\end{block}
+
+Bunun bir sonucu olarak asal halkaların commuting toplamsal dönüşümleri [5]'te karakterize edilmiştir.
+    
+\end{frame}
+
+\begin{frame}
+
+\begin{block}{Tanım}
+
+\end{block}
+
+\end{frame}
+
+\begin{frame}
+
+\begin{block}{3. $\sigma$-Bitürevler}
+Bu bölümde $R$ asal halkasının $\sigma$-bitürevlerinin yapısı belirlenecektir.\\
+Bunun bir uygulaması olarak $R$ halkasının $f(x)x = \sigma(x)f(x), x \in R$ formundaki toplamsal $f$ dönüşümleri karakterize edilecektir.
+\end{block}
+    
+\end{frame}
+
+\begin{frame}
+
+\begin{block}{Lanski}
+
+\end{block}
+
+\end{frame}
+
+\begin{frame}
+\footnotesize
+
+\begin{block}{4. İdealler Üzerine Sonuçlar}
+Bu bölümde Lanski'nin ve yazarın önceki çalışmalarından yola çıkılarak $R$ bir asal halka, $I \trianglelefteq R$ olmak üzere $f_1, f_2, f_3, f_4 \colon I \to R$ toplamsal dönüşümleri için
+\begin{equation*}
+    \pi(x,y) = f_1(x)y + xf_2(y) + f_3(y)x + yf_4(x) \in Z, x, y \in I
+\end{equation*}
+olması durumu incelenecektir.\\
+$R$ halkasının karakteristiği 2 veya 3 değilse ya $\pi(x,y) = 0, x, y \in I$ olur ya da $R$, $S_4$'ü sağlar.\\
+$\pi(x,y) = 0, x, y \in I$ olması durumunda $f_1, f_2, f_3, f_4$ dönüşümleri tamamen karakterize edilecektir.\\
+\end{block}
+
+\end{frame}
+
+\begin{frame}
+
+\begin{block}{Tanım}
+
+\end{block}
+
+\end{frame}
+
+\begin{frame}
+
+\begin{block}{Ana Teorem}
+Çalışmanın esas sonucu olarak bir $R$ halkasının bir idealinin her $G$ genelleştirilmiş bitürevinin
+\begin{equation*}
+    G(x,y) = xay + ybx, \exists a, b \in Q_s
+\end{equation*}
+formunda olduğu görülecektir.
+\end{block}
+
+\end{frame}
+
+\begin{frame}
+
+\begin{block}{5. Sağ İdealler Üzerine Sonuçlar}
+Bu bölümde $R$ asal halkasının $T$ sağ idealleri için bitürevler, commuting ve skew-commuting dönüşümler incelenecektir.\\
+Sonuçlar $TC \trianglelefteq_r R_c$ sağ idealinin minimal olması durumu hariç idealler üzerine sonuçlar ile aynı bulunacaktır.
+\end{block}
+
+\end{frame}
+
+\section{Ön Hazırlıklar}
+
+\begin{frame}{2. Ön Hazırlıklar}
+Bu bölümde sonraki bölümlerde gerekli olacak bazı tanım ve sonuçlar ele alınacaktır.\\
+Bu çalışmadaki ana teoremlerin tamamen Lemma 2.3 ve Lemma 2.5 ispatlarındaki elemanter hesaplamalara bağlı olduğu vurgulanmıştır.\\
+Buradan sonra $R$, $Z$ merkezli bir asal halkayı belirtecektir.
+\end{frame}
+
+\begin{frame}
+
+\begin{block}{Martindale Kesirler Halkası}
+[17]'de tanımlanan $Q_r$ sağ Martindale kesirler halkası aşağıdaki dört özellik ile karakterize edilebilir:
+\begin{enumerate}
+    \item $R \subseteq Q_r$,
+    \item $\forall q \in Q_r, \exists 0 \neq I \trianglelefteq R, qI \subseteq R$,
+    \item $q \in Q_r$ ve $0 \neq I \trianglelefteq R$ için $qI = 0$ ise $q = 0$ olur,
+    \item $I \trianglelefteq R$ ve $k \colon I \to R$ bir sağ $R$-modül homomorfizması ise $\exists q \in Q_r, k(u) = qu, \forall u \in I$ olur. 
+\end{enumerate}
+\end{block}
+    
+\end{frame}
+
+\begin{frame}
+
+\begin{block}{Martindale Kesirler Halkası}
+$Q_r$'nin merkezine $R$ halkasının genişletilmiş merkezi denir ve $C$ ile gösterilir. $C$ bir cisimdir. Ayrıca $C$, $R$ halkasının $Q_r$'deki merkezleyenidir ve $Z \subseteq C$ olur.\\
+$Q_r$'nin $R$ ve $C$ ile oluşturulan alt halkasına $R$'nin merkezil kapanışı denir ve $R_c$ ile gösterilir.\\
+$Q_r$'nin bir diğer önemli alt halkası simetrik Martindale kesirler halkasıdır ve $Q_s = \{q \in Q_r | Iq \subseteq R, \exists I \trianglelefteq R, I \neq 0\}$ ile tanımlanır.\\
+Ayrıca $R \subseteq R_c \subseteq Q_s \subseteq Q_r$ olur.
+$C$ cismi üzerinde $R_c, Q_s$ ve $Q_r$ asal cebirlerdir.
+\end{block}
+
+Lemma (2.1) $R$ asal halkasının $C$ genişletilmiş merkezinin önemini vurgular.
+    
+\end{frame}
+
+\begin{frame}
+
+\begin{block}{Lemma 2.1}
+Diyelim ki sıfırdan farklı $a_i, b_i \in Q_r$, $i = 1, \dots, m$, elemanları bir $0 \neq I \trianglelefteq R$ için $\displaystyle\sum_{i = 1}^{m}{a_ixb_i} = 0, \forall x \in I$ eşitliğini sağlasın. O zaman $a_i$ elemanları $C$ üzerinde lineer bağımlıdır ve $b_i$ elemanları $C$ üzerinde lineer bağımlıdır.
+\end{block}
+
+[13, Teorem 1], $a_i, b_i \in R$ durumunu inceler. Ancak buradaki sonuç daha geneldir.
+
+\end{frame}
+
+\begin{frame}
+
+Lemma (2.2), [2, Lemma] ve [9, Lemma 3.2]'nin daha genel halidir.
+
+\begin{block}{Lemma 2.2}
+$M$ bir küme olsun. $F, G \colon M \to Q_r$ dönüşümleri bir $0 \neq I \trianglelefteq R$ için $F(s)xG(t) = G(s)xF(t), \forall s,t \in M, \forall x \in I$ eşitliğini sağlasın. Eğer $F \neq 0$ ise $G(s) = \lambda F(s), \forall s \in M, \exists \lambda \in C$ olur.
+\end{block}
+
+İlerideki lemmalarda temel ilişkileri türeteceğiz.
+
+\end{frame}
+
+\begin{frame}
+
+\begin{block}{Lemma 2.3}
+$B$ bir halka, $A \subseteq B$ bir alt halka ve $B$'nin bir otomorfizması $\sigma$ olsun. Eğer $\Delta \colon A \times A \to B$ bir $\sigma$-bitürev ise
+\begin{equation*}
+    \Delta(x,y)z[u,v] = [\sigma(x), \sigma(y)]\sigma(z)\Delta(u,v), \forall x,y,z,u,v \in A
+\end{equation*}
+olur.
+\end{block}
+    
+\end{frame}
+
+\begin{frame}
+\footnotesize
+
+\begin{block}{İspat}
+$\Delta(xu,yv)$ değerini iki farklı şekilde hesaplayacağız.\\
+$\Delta$ bir $\sigma$-türev olduğundan
+\begin{equation*}
+    \Delta(xu,yv) = \Delta(x,yv)u + \sigma(x)\Delta(u,yv)
+\end{equation*}
+olur. O halde
+\begin{equation}
+    \Delta(xu,yv) = \Delta(x,y)vu + \sigma(y)\Delta(x,v)u + \sigma(x)\Delta(u,y)v + \sigma(x)\sigma(y)\Delta(u,v)
+\end{equation}
+olur. Öte yandan
+\begin{equation*}
+    \Delta(xu,yv) = \Delta(xu,y)v + \sigma(y)\Delta(xu,v)
+\end{equation*}
+olur. O halde
+\begin{equation}
+    \Delta(xu,yv) = \Delta(x,y)uv + \sigma(x)\Delta(u,y)v + \sigma(y)\Delta(x,v)u + \sigma(y)\sigma(x)\Delta(u,v)
+\end{equation}
+olur.
+\end{block}
+    
+\end{frame}
+
+\begin{frame}
+\footnotesize
+
+\begin{block}{İspat (Devam)}
+(1) ve (2) ile
+\begin{equation*}
+    \Delta(x,y)[u,v] = [\sigma(x),\sigma(y)]\Delta(u,v)
+\end{equation*}
+elde edilir. $u \mapsto zu$ dönüşümü ile
+\begin{equation*}
+    [zu,v] = [z,v]u + z[u,v]
+\end{equation*}
+ve
+\begin{equation*}
+    \Delta(zu,v) = \Delta(z,v)u + \sigma(z)\Delta(u,v)
+\end{equation*}
+olduğundan eşitlik görülür.
+\end{block}
+
+$\sigma$ birim olduğunda [9, Lemma 3.1] elde edilir.
+    
+\end{frame}
+
+\begin{frame}
+
+\begin{block}{Sonuç 2.4}
+$B$ bir halka, $A \subseteq B$ bir alt halka olsun. Eğer $D \colon A \times A \to B$ bir bitürev ise
+\begin{equation*}
+    D(x,y)z[u,v] = [x,y]zD(u,v), \forall x,y,z,u,v \in A
+\end{equation*}
+olur.
+\end{block}
+    
+\end{frame}
+
+\begin{frame}
+
+\begin{block}{Lemma 2.5}
+$B$ bir halka, $A \subseteq B$ bir alt halka ve $0 \neq T \trianglelefteq_r A$ olsun. $f_1, f_2, f_3, f_4 \colon T \to B$ dönüşümleri için
+\begin{equation*}
+    \pi(x,y) = f_1(x)y + xf_2(y) + f_3(y)x + yf_4(x)
+\end{equation*}
+olsun. O zaman her $x,y \in T, r \in A$ için
+\begin{align*}
+    x[r,&f_2(yr) - f_2(y)r]+y[r,f_4(xr) - f_4(x)r]\\&= \pi(x,y)r^2 - (\pi(xr,y) + \pi(x,yr))r + \pi(xr,yr)
+\end{align*}
+olur.
+\end{block}
+
+\begin{block}{İspat}
+$x \mapsto xr$ ve $y \mapsto yr$ dönüşümleri ile eşitlik görülür.
+\end{block}
+    
+\end{frame}
+
+\begin{frame}
+
+\begin{block}{Sonuç 2.6}
+$B$ bir halka, $A \subseteq B$ bir alt halka ve $0 \neq T \trianglelefteq_r A$ olsun. $f_1, f_2, f_3, f_4 \colon T \to B$ dönüşümleri için
+\begin{equation*}
+    f_1(x)y + xf_2(y) + f_3(y)x + yf_4(x) = 0, \forall x, y \in T
+\end{equation*}
+olsun. O zaman her $x,y \in T, r \in A$ için
+\begin{equation*}
+    x[r,f_2(yr) - f_2(y)r]+y[r,f_4(xr) - f_4(x)r] = 0
+\end{equation*}
+olur.
+\end{block}
+    
+\end{frame}
+
+\section{\texorpdfstring{$\sigma$}{Lg}-Bitürevler}
+
+\begin{frame}{3. $\sigma$-Bitürevler}
+    
+\begin{block}{Tanım}
+$\sigma$, $R$ asal halkasının bir otomorfizması olsun. Eğer $\sigma(r) = ara^{-1}, \forall r \in R$ olacak şekilde bir $a \in Q_s$ tersinir elemanı varsa $\sigma$ $X$-içseldir denir.
+\end{block}
+    
+\end{frame}
+
+\begin{frame}
+
+\begin{block}{Lemma 3.1 [18, Lemma 12.1]}
+$R$'nin bir otomorfizması $\sigma$ olsun. Eğer
+\begin{equation*}
+    a_1ra_2 = a_3\sigma(r)a_4, \forall r \in R
+\end{equation*}
+olacak şekilde sıfırdan farklı $a_1, a_2, a_3, a_4 \in Q_r$ elemanları varsa $\sigma$ otomorfizması $X$-içseldir.
+\end{block}
+
+Artık Teorem (3.2)'yi kanıtlayabiliriz.
+    
+\end{frame}
+
+\begin{frame}
+
+\begin{block}{Teorem 3.2}
+$R$ değişmeli olmayan bir asal halka, $R$'nin bir otomorfizması $\sigma$ ve $R$'nin sıfırdan farklı bir $\sigma$-bitürevi $\Delta \colon R \times R \to R$ olsun. O zaman $\sigma$ otomorfizması $X$-içseldir ve
+\begin{equation*}
+    \sigma(x) = bxb^{-1}, \Delta(x,y) = b[x,y], \forall x, y \in R
+\end{equation*}
+olacak şekilde tersinir bir $b \in Q_s$ elemanı vardır.
+\end{block}
+    
+\end{frame}
+
+\begin{frame}
+\footnotesize
+
+\begin{block}{İspat}
+Lemma (2.3) ile
+\begin{equation*}
+    \Delta(x,y)r[u,v] = [\sigma(x),\sigma(y)]\sigma(r)\Delta(u,v), \forall x, y, u, v, r \in R
+\end{equation*}
+olduğu görülür. $R$ değişmeli olmadığından ve $\Delta \neq 0$ olduğundan
+\begin{align*}
+    a_1 &= \Delta(x_0,y_0) \neq 0,\\
+    a_2 &= [u_0, v_0] \neq 0,\\
+    a_3 &= [\sigma(x_0),\sigma(y_0)] \neq 0,\\
+    a_4 &= \Delta(u_0,v_0) \neq 0
+\end{align*}
+olacak şekilde $x_0, y_0, u_0, v_0 \in R$ elemanları vardır. ($[u,v] \neq 0 \iff \Delta(u,v) \neq 0$).\\
+O halde
+\begin{equation*}
+    a_1ra_2 = a_3\sigma(r)a_4, r \in R
+\end{equation*}
+olur.
+\end{block}
+    
+\end{frame}
+
+\begin{frame}
+\footnotesize
+
+\begin{block}{İspat}
+Lemma (3.1) ile $\sigma$ otomorfizması X-içseldir. O halde
+\begin{equation*}
+    \Delta(x,y)r[u,v] = a[x,y]ra^{-1}\Delta(u,v), \forall x, y, u, v, r \in R
+\end{equation*}
+olur. Eşitliği sol taraftan $a^{-1}$ ile çarparak
+\begin{equation*}
+    a^{-1}\Delta(x,y)r[u,v] = [x,y]ra^{-1}\Delta(u,v)
+\end{equation*}
+elde edilir. $M = R \times R$ diyelim. $F(x,y) = [x,y]$, $G(x,y) = a^{-1}\Delta(x,y)$ ile tanımlı $F, G \colon M \to Q_r$ dönüşümleri Lemma (2.2) için şartları sağlar. Öyleyse
+\begin{equation*}
+    G(x,y) = \lambda F(x,y), \exists \lambda \in C
+\end{equation*}
+olur. $b = \lambda a$ olmak üzere
+\begin{equation*}
+    \Delta(x,y) = b[x,y]
+\end{equation*}
+eşitliği elde edilir. $b \neq 0$, $\Delta \neq 0$ ve $b$ tersinir olduğundan
+\begin{equation*}
+    \sigma(x) = bxb^{-1}, x \in R
+\end{equation*}
+olur.
+\end{block}
+    
+\end{frame}
+
+\begin{frame}
+
+\begin{block}{Sonuç 3.3}
+Diyelim ki $R$ halkasının bir $\sigma$ otomorfizması ve sıfırdan farklı bir $f \colon R \to R$ toplamsal dönüşümü
+\begin{equation*}
+    f(x)x = \sigma(x)f(x), \forall x \in R
+\end{equation*}
+eşitliğini sağlasın. O zaman $\sigma(x) = bxb^{-1}, x \in R$ ($\sigma$, $X$-içsel) olacak şekilde tersinir bir $b \in Q_s$ elemanı vardır ve $f$ dönüşümü bir $\zeta: R \to C$ toplamsal dönüşümü için ya $f(x) = bx + \zeta(x)b, x \in R$ ya da $f(x) = \zeta(x)b, x \in R$ formundadır.
+\end{block}
+    
+\end{frame}
+
+\section{İdealler Üzerine Sonuçlar}
+
+\begin{frame}{4. İdealler Üzerine Sonuçlar}
+    
+Bu bölümde $I$, $R$ asal halkasının bir ideali olacaktır.\\
+Amaç $I$ idealinin genelleştirilmiş bitürevlerini karakterize etmektir.
+    
+\end{frame}
+
+\begin{frame}
+
+İlk olarak [9, Teorem 3.3]'ün daha genel bir halini görelim.
+
+\begin{block}{Önerme 4.1}
+$D \colon I \times I \to Q_r$ bir bitürev olsun. Eğer $R$ değişmeli değil ise $D(x,y) = \lambda[x,y], \forall x,y \in I$ olacak şekilde bir $\lambda \in C$ vardır.
+\end{block}
+    
+\end{frame}
+
+\begin{frame}
+
+\begin{block}{Tanım}
+$f$ bir dönüşüm olmak üzere tanım kümesindeki her $x, y$ elemanları için
+\begin{equation*}
+    f(x+y) - f(x) - f(y) \in C
+\end{equation*}
+ise $f$ toplamsal modulo $C$'dir denir.
+\end{block}
+
+Şimdi Önerme (4.1)'in bir sonucu olarak [5]'in ana teoreminin biraz daha genel halini göreceğiz.
+    
+\end{frame}
+
+\begin{frame}
+
+\begin{block}{Sonuç 4.2}
+$f \colon I \to Q_r$ toplamsal modulo $C$ olsun. Eğer $f$ commuting ise $f(x) = \lambda x + \zeta(x), \forall x \in I$ olacak şekilde $\lambda \in C$ ve bir $\zeta \colon I \to C$ dönüşümü vardır.
+\end{block}
+    
+\end{frame}
+
+\begin{frame}
+
+\begin{block}{Lemma 4.3}
+$f \colon I \to R$ toplamsal modulo $C$ olsun. Diyelim ki her $y \in I, r \in R$ için
+\begin{equation*}
+    [r,f(yr)-f(y)r] = 0
+\end{equation*}
+eşitliği sağlansın. O zaman $f(y) = ay - \lambda(y), \forall y \in I$ olacak şekilde $a \in Q_r$ ve bir $\lambda \colon I \to C$ dönüşümü vardır.
+\end{block}
+    
+\end{frame}
+
+\begin{frame}
+
+\begin{block}{Lemma 4.4}
+Diyelim ki $g_1, g_2 \colon I \to Q_r$ dönüşümleri için aşağıdaki koşullardan biri sağlansın:
+\begin{enumerate}
+    \item $xg_1(y) + yg_2(x) = 0, \forall x, y \in I$,
+    \item $g_1(x)y + g_2(y)x = 0, \forall x, y \in I$.
+\end{enumerate}
+O zaman ya $g_1 = g_2 = 0$ olur ya da $R$ değişmelidir.
+\end{block}
+    
+\end{frame}
+
+\begin{frame}
+
+\begin{block}{Lemma 4.5}
+Diyelim ki $f_1, f_2, f_3, f_4$ dönüşümleri toplamsal modulo $C$ olsun ve her $x, y \in I$ için
+\begin{equation*}
+    f_1(x)y + xf_2(y) + f_3(y)x + yf_4(x) = 0
+\end{equation*}
+eşitliği sağlansın. O zaman her $x \in I$ için
+\begin{align*}
+    f_1(x) &= -xa + \mu(x), f_2(x) = ax - \lambda(x),\\
+    f_3(x) &= -xb + \lambda(x), f_4(x) = bx - \mu(x)
+\end{align*}
+olacak şekilde $a, b \in Q_s$ ve $\lambda, \mu \colon I \to C$ dönüşümleri vardır.
+\end{block}
+    
+\end{frame}
+
+\begin{frame}
+
+\begin{block}{Lemma 4.6}
+Diyelim ki $I \neq 0$ olsun. Eğer $q_1, q_2 \in Q_r$ için $q_1x + xq_2 \in C, \forall x \in I$ ise ya $q_1 = -q_2 \in C$ olur ya da $R$ değişmelidir. Özel olarak $q \in Q_r$ için $qI \subseteq C$ veya $Iq \subseteq C$ ise ya $q = 0$ olur ya da $R$ değişmelidir.
+\end{block}
+
+Artık Teorem (4.7)'yi ispatlayabiliriz.
+    
+\end{frame}
+
+\begin{frame}
+
+\begin{block}{Teorem 4.7}
+$I$ bir asal halkanın ideali olsun. Eğer $G \colon I \times I \to R$ bir genelleştirilmiş bitürev ise her $x, y \in I$ için
+\begin{equation*}
+    G(x, y) = xay + ybx
+\end{equation*}
+olacak şekilde $a, b \in Q_s$ vardır.
+\end{block}
+    
+\end{frame}
+
+\begin{frame}
+\footnotesize
+
+\begin{block}{İspat}
+$G$ ilk değişken için genelleştirilmiş türev olduğundan her $y \in I$ için
+\begin{equation*}
+    G(x,y) = g_1(y)x + xg_2(y), \exists g_1(y), g_2(y) \in R
+\end{equation*}
+olur. O halde
+\begin{equation*}
+    G(x,y_1+y_2) = g_1(y_1+y_2)x + xg_2(y_1+y_2)
+\end{equation*}
+olur. Ayrıca $G$ ikinci değişken için toplamsal olduğundan
+\begin{align*}
+    G(x,y_1+y_2) &= G(x,y_1) + g(x,y_2)\\
+    &= g_1(y_1)x + xg_2(y_1) + g_1(y_2)x + xg_2(y_2)
+\end{align*}
+olur. O halde
+\begin{equation*}
+    (g_1(y_1+y_2)-g_1(y_1)-g_1(y_2))x+x(g_2(y_1+y_2)-g_2(y_1)-g_2(y_2)) = 0, \forall x, y_1, y_2 \in I
+\end{equation*}
+elde edilir.
+\end{block}
+    
+\end{frame}
+
+\begin{frame}
+\footnotesize
+
+\begin{block}{İspat (Devam)}
+Lemma (4.6) ile
+\begin{equation*}
+    g_1(y_1+y_2)-g_1(y_1)-g_1(y_2) = -(g_2(y_1+y_2)-g_2(y_1)-g_2(y_2)) \in C
+\end{equation*}
+olduğu görülür. O halde $g_1, g_2 \colon I \to R$ toplamsal modulo $C$ olur.\\
+$G$ ikinci değişken için genelleştirilmiş türev olduğundan $g_3, g_4 \colon I \to R$ toplamsal modulo $C$ olmak üzere
+\begin{equation*}
+    G(x,y) = g_3(x)y+yg_4(x), x, y \in I
+\end{equation*}
+olur. O halde
+\begin{equation*}
+    g_3(x)y - xg_2(y) - g_1(y)x + yg_4(x) = 0, \forall x, y \in I
+\end{equation*}
+olur. 
+\end{block}
+
+\end{frame}
+
+\begin{frame}
+\footnotesize
+
+\begin{block}{İspat (Devam)}
+Lemma (4.5) ile $\exists a, b \in Q_s, \lambda \mu \colon I \to C$,
+\begin{align*}
+    g_1(x) &= xb- \lambda(x),\\
+    g_2(x) &= ax + \lambda(x),\\
+    g_3(x) &= xa + \mu(x),\\
+    g_4(x) &= bx - \mu(x)
+\end{align*}
+eşitlikleri elde edilir. Buradan
+\begin{equation*}
+    G(x,y) = g_3(x)y + yg_4(x) = xay + ybx
+\end{equation*}
+olduğu görülür.
+\end{block}
+    
+\end{frame}
+
+\begin{frame}
+
+\begin{block}{Sonuç 4.8}
+$R$ değişmeli olmasın ve $G \colon I \times I \to R$ bir genelleştirilmiş bitürev olsun.
+\begin{enumerate}
+    \item Eğer $G$ simetrik ise ($G(x,y) = G(y,x), x, y \in I$) $G(x, y) = xay + yax, x, y \in I$ olacak şekilde $a \in Q_s$ vardır.
+    \item Eğer $G$ anti-simetrik ise ($G(x,y) = -G(y,x), x, y \in I$) $G(x, y) = xay - yax, x, y \in I$ olacak şekilde $a \in Q_s$ vardır.
+\end{enumerate}
+\end{block}
+
+Artık commuting ve skew-commuting dönüşümler üzerindeki giriş bölümünde bahsi geçen sonuçları genelleyebiliriz.\\
+İlk olarak Sonuç (4.9) ile başlayalım.
+    
+\end{frame}
+
+\begin{frame}
+
+\begin{block}{Sonuç 4.9}
+Diyelim ki $f, g \colon I \to R$ toplamsal dönüşümleri her $x \in I$ için
+\begin{equation*}
+    f(x)x = xg(x)
+\end{equation*}
+eşitliğini sağlasın. O zaman her $x \in I$ için
+\begin{equation*}
+    f(x) = xa + \zeta(x), g(x) = ax + \zeta(x)
+\end{equation*}
+olacak şekilde $a \in Q_s$ ve bir $\zeta \colon I \to C$ toplamsal dönüşümü vardır.
+\end{block}
+    
+\end{frame}
+
+\begin{frame}
+
+\begin{block}{Sonuç 4.10}
+$R$ değişmeli olmasın. Diyelim ki bir $f \colon I \to R$ toplamsal dönüşümü her $x, y \in I$ ve en az biri sıfırdan farklı $c_1, c_2, c_3, c_4 \in Z$ için
+\begin{equation*}
+    c_1f(x)y + c_2xf(y) + c_3f(y)x + c_4yf(x) = 0
+\end{equation*}
+eşitliğini sağlasın. O zaman $f$, $\lambda \in C$ ve $\zeta \colon I \to C$ bir toplamsal dönüşüm olmak üzere $f(x) = \lambda x + \zeta(x)$ formundadır. Üstelik eğer $\lambda \neq 0$ ise $c_1 = - c_2$ ve $c_3 = - c_4$, eğer $\zeta \neq 0$ ise $c_1 = - c_4$ ve $c_2 = - c_3$ olur.
+\end{block}
+    
+\end{frame}
+
+\begin{frame}
+
+\begin{block}{Uyarı}
+
+\end{block}
+    
+\end{frame}
+
+\begin{frame}
+
+\begin{block}{Sonuç 4.11}
+Diyelim ki bir $f \colon I \to R$ toplamsal dönüşümü her $x \in I$ ve en az biri sıfırdan farklı $c_1, c_2 \in Z$ için $c_1f(x)x = c_2xf(x)$ eşitliğini sağlasın. O zaman $f$, $\lambda \in C$ ve $\zeta \colon I \to C$ bir toplamsal dönüşüm olmak üzere $f(x) = \lambda x + \zeta(x)$ formundadır. Üstelik $f \neq 0$ ise $c_1 = c_2$ olur.
+\end{block}
+
+Sonuç (4.11)'in direkt bir sonucu olarak Sonuç (4.12)'yi verebiliriz. Benzer bir sonuç [8]'de farklı yoldan elde edilmiştir.
+    
+\end{frame}
+
+\begin{frame}
+
+\begin{block}{Sonuç 4.12}
+$f \colon I \to R$ bir toplamsal skew-commuting dönüşüm olsun. Eğer $R$'nin karakteristiği 2 değilse $f = 0$ olur.
+\end{block}
+    
+\end{frame}
+
+\begin{frame}
+
+Sonuç (4.13) elde edilen verilerin türevler üzerine bir uygulamasıdır.
+
+\begin{block}{Sonuç 4.13}
+
+$f_1, f_2, f_3, f_4 \colon I \to R$ toplamsal dönüşümleri ve her $x, y \in I$ için
+\begin{equation*}
+    f_1(x)y + xf_2(y) + f_3(y)x + yf_4(x) = 0
+\end{equation*}
+eşitliği sağlansın. Eğer bir $i \in \{1, 2, 3, 4\}$ için $f_i$ sıfırdan farklı bir türev ise $R$ değişmelidir.
+\end{block}
+
+Bundan sonraki amaç $f_, \colon I \to R$ dönüşümlerinin $f_1(x)y + xf_2(y) + f_3(y)x + yf_4(x) \in Z, \forall x, y \in I$ durumunu incelemektir.\\
+    
+\end{frame}
+
+\begin{frame}
+    
+Bir $r \in R$ elemanının $Q_r$ içindeki merkezleyeni $C(r)$ ile gösterilecektir. Yani
+\begin{equation*}
+    C(r) = \{x \in Q_r | [x,r] = 0\}
+\end{equation*}
+olacaktır.
+
+\end{frame}
+
+\begin{frame}
+
+\begin{block}{Lemma 4.14}
+Diyelim ki $g_1, g_2 \colon I \to Q_r$ dönüşümleri ve $r \in R$ için aşağıdaki koşullardan biri sağlansın:
+\begin{enumerate}
+    \item $xg_1(y) + yg_2(x) \in C(r), \forall x, y \in I$,
+    \item $g_1(x)y + g_2(y)x \in C(r), \forall x, y \in I$.
+\end{enumerate}
+O zaman ya $g_1 = g_2 = 0$ olur ya da $\lambda, \mu \in C$ olmak üzere $r^2 = \lambda r + \mu$ olur.
+\end{block}
+    
+\end{frame}
+
+\begin{frame}
+
+\begin{block}{Lemma 4.15 (Standard PI Theory)}
+Aşağıdakiler denktir:
+\begin{enumerate}
+    \item $R$ halkası $S_4$'ü sağlar,
+    \item $R$ ya değişmelidir ya da $F$ cisim olmak üzere $M_2(F)$ içine gömülür,
+    \item $R$ halkası $C$ üzerinde ikinci dereceden sınırlı ve cebirseldir ($\forall r \in R, \exists \lambda, \mu \in C, r^2 = \lambda r + \mu$),
+    \item $[[r^2,s],[r,s]] = 0, \forall r, s \in R$.
+\end{enumerate}
+\end{block}
+    
+\end{frame}
+
+\begin{frame}
+
+\begin{block}{Lemma 4.16}
+$g_1, g_2 \colon I \to Q_r$ dönüşümleri için aşağıdaki koşullardan biri sağlansın:
+\begin{enumerate}
+    \item $x g_1(y) + y g_2(x) \in C, \forall x, y \in I$,
+    \item $g_1(x)y + g_2(y)x \in C, \forall x, y \in I$.
+\end{enumerate}
+O zaman ya $g_1 = g_2 = 0$ olur ya da $R$ halkası $S_4$'ü sağlar.
+\end{block}
+    
+\end{frame}
+
+\begin{frame}
+
+\begin{block}{Lemma 4.17}
+$G, H$ toplamsal gruplar ve $\Gamma \colon G \times G \times G \to H$ ile $\Omega \colon G \times G \to H$ dönüşümleri her değişken için toplamsal olsun. Bir $x \in G$ için ya $\Gamma(x,x,x) = 0$ ya da $\Omega(x,x) = 0$ olsun. $H$ grubu 2-burulmasız ve 3-burulmasız ise ya $\Gamma(x,x,x) = 0, \forall x \in G$ ya da $\Omega(x,x) = 0, \forall x \in G$ olur.
+\end{block}
+
+Artık Teorem (4.18)'i verebiliriz.
+    
+\end{frame}
+
+\begin{frame}
+\footnotesize
+
+\begin{block}{Teorem 4.18}
+$R$ bir asal halka ve $I \trianglelefteq R$ olsun. $f_1, f_2, f_3, f_4 \colon I \to R$ toplamsal dönüşümleri için
+\begin{equation*}
+    \pi(x,y) =  f_1(x)y + xf_2(y) + f_3(y)x + yf_4(x)
+\end{equation*}
+eşitliği sağlansın.
+\begin{enumerate}
+    \item Her $x, y \in I$ için $\pi(x,y) \in Z$ olur. Üstelik $R$'nin karakteristiği 2 veya 3'ten farklı ise ya $R$ halkası $S_4$'ü sağlar ya da her $x, y \in I$ için $\pi(x,y) = 0$ olur.
+    \item $\pi(x,y) = 0, \forall x, y \in I$ ise her $x \in I$ için
+    \begin{align*}
+        f_1(x) &= -xa + \mu(x),\\
+        f_2(x) &= ax - \lambda(x),\\
+        f_3(x) &= -xb + \lambda(x),\\
+        f_4(x) &= bx - \mu(x)
+    \end{align*}
+    olacak şekilde $a, b \in Q_s$ ve $\lambda, \mu \colon I \to C$ toplamsal dönüşümleri vardır.
+\end{enumerate}
+\end{block}
+
+\end{frame}
+
+\begin{frame}
+\footnotesize
+
+\begin{block}{İspat}
+Lemma (2.5) ile her $x, y \in I, r \in R$ için
+\begin{align*}
+    g_1(y) &= [r, f_2(yr)-f_2(y)r],\\
+    g_2(x) &= [r, f_4(xr)-f_4(x)r]
+\end{align*}
+olmak üzere
+\begin{equation*}
+    xg_1(y)+yg_2(x) = \pi(x,y)r^2-(\pi(xr,y)+\pi(x,yr))r+\pi(xr,yr)
+\end{equation*}
+olduğu görülür. Yani $r \in R$ için
+\begin{equation*}
+    xg_1(y) + yg_2(x) \in C(r), x, y \in I
+\end{equation*}
+olur. Lemma (4.14) ile ya $g_1 = g_2 = 0$ ya da $r^2 = \lambda r + \mu, \exists \lambda, \mu \in C$ olur.\\
+$R$, $S_4$'ü sağlamasın. O zaman Lemma (4.15) ile
+\begin{equation*}
+    [[r_0^2,s_0],[r_0,s_0]] \neq 0, \exists r_0, s_0 \in R
+\end{equation*}
+olur.
+\end{block}
+    
+\end{frame}
+
+\begin{frame}
+\footnotesize
+
+\begin{block}{İspat (Devam)}
+ Şimdi $\Gamma \colon R \times R \times R \to R$, $\Gamma(r,s,t) = [[rs,s_0],[t,s_0]]$ ve bir $y \in I$ için $\Omega_y \colon R \times R \to R$, $\Omega_y(r,s) = [r, f_2(ys)-f_2(y)s]$ dönüşümlerini tanımlayalım. Lemma (4.17) ile bir $r \in R$ için ya $\Gamma(r,r,r) = 0$ ya da $\Omega_y(r,r) = 0, y \in I$ olduğu görülür.\\
+Lemma (4.15) ile $\Gamma(r_0,r_0,r_0) \neq 0$ olur.\\
+Eğer $R$'nin karakteristiği 2 veya 3 değilse Lemma (4.17) ile
+\begin{equation*}
+    \Omega_y(r,r) = 0, \forall r \in R, y \in I
+\end{equation*}
+yani
+\begin{equation*}
+    [r, f_2(yr)-f_2(y)r] = 0, \forall r \in r, y \in I
+\end{equation*}
+olur. Benzer şekilde
+\begin{equation*}
+    [r, f_4(yr)-f_4(y)r] = 0, \forall r \in R, y \in I
+\end{equation*}
+bulunur.
+\end{block}
+    
+\end{frame}
+
+\begin{frame}
+\footnotesize
+
+\begin{block}{İspat (Devam)}
+Lemma (4.3) ile $y \in I$ olmak üzere $a, b \in Q_r$ ve $\lambda, \mu \colon I \to C$ toplamsal dönüşümleri için,
+\begin{align*}
+    f_2(y) &= ay - \lambda(y),\\
+    f_4(y) &= by - \mu(y)
+\end{align*}
+olduğu görülür. O halde
+\begin{equation*}
+    \pi(x,y) = (f_1(x) + xa - \mu(x))y + (f_3(y) + yb - \lambda(y))x
+\end{equation*}
+olur. $\pi(x,y) \in Z$ olduğundan Lemma (4.16) ile
+\begin{equation*}
+    \pi(x,y) = 0, x, y \in I
+\end{equation*}
+olur. Böylece $(i)$ şıkkı görülür.\\
+Diğer şık ise Lemma (4.5) ile görülür. 
+\end{block}
+    
+\end{frame}
+
+\section{Sağ İdealler Üzerine Sonuçlar}
+
+\begin{frame}{5. Sağ İdealler Üzerine Sonuçlar}
+
+Bu bölümde T, R asal halkasının bir sağ ideali olacaktır.\\
+$T \to R$ toplamsal dönüşümleri için 4. bölümdeki $I \to R$ toplamsal dönüşümleri ile benzer sonuçlar elde edilecektir.
+    
+\end{frame}
+
+\begin{frame}
+
+\begin{block}{Lemma 5.1}
+$T \neq 0$ olsun. $[T,T]T = 0$ olur ancak ve ancak $TC \trianglelefteq_r R_c$ minimaldir ve $TC = eR_c$, $eR_ce = Ce$ olacak şekilde $e \in R_c$ idempotenti vardır.
+\end{block}
+    
+\end{frame}
+
+\begin{frame}
+
+\begin{block}{Teorem 5.2}
+$R$ asal ve $T \trianglelefteq_r R$ olsun.
+\begin{enumerate}
+    \item Her $D \colon T \times T \to R$ bitürevi bir $\lambda \in C$ için $D(x,y) = \lambda[x,y], x, y \in T$ formundadır.
+    \item Her $f \colon T \to R$ commuting toplamsal dönüşümü bir $\lambda \in C$ ve $\zeta \colon T \to C$ toplamsal dönüşümü için $f(x) = \lambda x + \zeta(x), x \in T$ formundadır.
+    \item Bir $f \colon T \to R$ toplamsal dönüşümü her $x \in T$ için $xf(x) = 0$ eşitliğini sağlıyorsa $f = 0$ olur.
+    \item $R$'nin karakteristiği 2'den farklı olmak üzere $f \colon T \to R$ toplamsal skew-commuting dönüşümü için ya $f = 0$ olur ya da $TC \trianglelefteq_r R_c$ minimaldir ve $TC = eR_c$, $eR_ce = Ce$ olacak şekilde $e \in R_c$ idempotenti vardır.
+\end{enumerate}
+\end{block}
+    
+\end{frame}
+
+\begin{frame}
+
+\begin{block}{Sonuç 5.3}
+$f \colon T \to T$ toplamsal dönüşüm olsun.
+\begin{enumerate}
+    \item $f$ commuting ise her $x \in T$ için $f(x) = \lambda x + \zeta(x)$ olacak şekilde $\lambda \in C$ ve $\zeta \colon T \to C$ toplamsal dönüşümü vardır.
+    \item Her $x \in T$ için $xf(x) = 0$ ise $f = 0$ olur.
+    \item $R$'nin karakteristiği 2'den farklı ve $f$ skew-commuting ise $f = 0$ olur.
+\end{enumerate}
+\end{block}
+    
+\end{frame}
+
+\section{Kaynaklar Dizini}
+
+\begin{frame}{Kaynaklar Dizini}
+    
+\end{frame}
+
+\end{document}
